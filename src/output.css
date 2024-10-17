@@ -749,8 +749,42 @@ select {
   outline: 1px auto -webkit-focus-ring-color;
 }
 
-.mt-8 {
-  margin-top: 2rem;
+.absolute {
+  position: absolute;
+}
+
+.flex {
+  display: flex;
+}
+
+.h-3\/4 {
+  height: 75%;
+}
+
+.h-full {
+  height: 100%;
+}
+
+.h-screen {
+  height: 100vh;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.space-y-96 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(24rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(24rem * var(--tw-space-y-reverse));
 }
 
 .bg-primary {
@@ -763,14 +797,7 @@ select {
   background-color: rgb(143 162 6 / var(--tw-bg-opacity));
 }
 
-.font-Montserrat {
-  font-family: "Montserrat", sans-serif;
-}
-
-.font-bold {
-  font-weight: 700;
-}
-
-.underline {
-  text-decoration-line: underline;
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
